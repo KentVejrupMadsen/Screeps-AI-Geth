@@ -5,8 +5,8 @@ var optimise = require('optimise');
 
 module.exports.loop = function()
 {
-    analyze.state_detection();
-    analyze.map_zone();
+    analyze.state_detection( null );
+    analyze.map_zone( null );
 
     maintenance.call_maintenance();
 }
