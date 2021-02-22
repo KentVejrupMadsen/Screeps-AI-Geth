@@ -12,6 +12,8 @@ module.exports =
   {
       map_flags();
       map_resources();
+      map_constructions();
+      map_zones();
 
 
   }
@@ -57,6 +59,17 @@ function map_flags()
 
 
 function map_resources()
+{
+
+}
+
+
+function map_constructions()
+{
+
+}
+
+function map_zones()
 {
 
 }
